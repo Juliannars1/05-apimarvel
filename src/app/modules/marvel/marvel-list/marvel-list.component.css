@@ -1,0 +1,35 @@
+.btn-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap: 50px;
+}
+.btn {
+  background-color: #f44336;
+  border-color: #f44336;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  border-radius: 10px;
+  flex-direction: row;
+  cursor: pointer;
+  gap: 50px;
+}
+.btn:hover {
+  background-color: #e9746c;
+  border-color: #f44336;
+}
+.content {
+  width: 80%;
+  margin: 3rem auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}

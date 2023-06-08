@@ -1,0 +1,13 @@
+<app-header></app-header>
+<div class="btn-container">
+  <button class="btn btn-primary" (click)="loadPreviousPage()">
+    Anteriores
+  </button>
+  &nbsp;
+  <button class="btn btn-primary" (click)="loadNextPage()">Siguientes</button>
+</div>
+<div class="content">
+  <ng-container *ngFor="let character of characters">
+    <app-marvel-card [character]="character"></app-marvel-card>
+  </ng-container>
+</div>
